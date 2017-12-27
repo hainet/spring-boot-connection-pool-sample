@@ -8,3 +8,6 @@ out/
 # IntelliJ IDEA
 .idea/
 *.iml
+
+# H2
+*.db
