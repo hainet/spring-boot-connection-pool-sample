@@ -23,7 +23,7 @@ public class SpringBootTomcatSampleApplication implements CommandLineRunner {
     private final SessionDao dao;
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
         System.out.println(dataSource);
     }
 
