@@ -6,7 +6,6 @@ spring:
     password:
     type: com.zaxxer.hikari.HikariDataSource
     hikari:
-      validation-timeout: 1000
       minimum-idle: 1
       maximum-pool-size: 1
       connection-timeout: 60000
