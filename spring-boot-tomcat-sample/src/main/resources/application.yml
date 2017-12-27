@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:./resouce;AUTO_SERVER=true
+    username: sa
+    password:
+    type: org.apache.tomcat.jdbc.pool.DataSource
+    tomcat:
+      min-idle: 1
+      max-active: 1
+      max-wait: 60000
